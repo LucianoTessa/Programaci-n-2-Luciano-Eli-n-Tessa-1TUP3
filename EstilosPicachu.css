@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.fondo {
+  background-color: orange;
+  height: 400px;
+  width: 275px;
+  border-radius: 20px;
+  position: absolute;
+  border: solid;
+  box-shadow: -5px 1px 15px 0px black;
+}
+.picachu {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  position: absolute;
+  top: -5%;
+  left: 60px;
+  text-align: center;
+  padding-top: 10px;
+  border: solid;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.texto {
+  position: absolute;
+  top: 260px;
+  font-size: 12px;
+  left: 13px;
+}
