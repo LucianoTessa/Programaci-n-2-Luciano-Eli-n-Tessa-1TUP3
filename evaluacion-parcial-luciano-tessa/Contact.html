@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Contact.css" />
+  </head>
+  <body>
+    <form class="formulario">
+      <label for="nombre">Nombre:</label>
+
+      <input id="nombre" type="text" placeholder="Ingrese nombre" />
+
+      <label for="E-mail">E-mail:</label>
+
+      <input id="E-mail" type="text" placeholder="Ingrese E-mail" />
+
+      <label for="Subjet">Subjet:</label>
+
+      <input id="Subjet" type="text" placeholder="Ingrese Subjet" />
+
+      <label for="mensaje">Mensaje:</label>
+
+      <textarea
+        name="Mensaje"
+        rows="10"
+        cols="80"
+        maxlength="300"
+        class="mensaje"
+      ></textarea>
+
+      <button type="submit" value="Enviar" class="Button enviar">Enviar</button>
+      <button
+        type="button"
+        class="Button volver"
+        onclick="window.location.href='index.html'"
+      >
+        Volver
+      </button>
+    </form>
+  </body>
+</html>
